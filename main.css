@@ -1,19 +1,61 @@
 body{
     background-color: #fff;
-    margin: 0% 10% 10% 10%;
+    margin: 0px 25px;
 }
 
 nav{
     background-color: #466995;
     height: 70px;
-    width: 100%;
+    width: 96%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
 }
 
 nav ul{
     text-align: center;
+    padding: 0px;
 }
 
 nav ul li{
     display: inline-block;
     margin: 20px 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#welcome{
+    background-color: #DBE9EE;
+    margin: 75px 0px 25px 0px;
+    text-align: center;
+}
+
+#welcome h2, #welcome p{
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+
+.qa-container{
+    text-align: center;
+}
+
+.answers p{
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid black;
+}
+
+.answers p:hover{
+    background-color: #C0D6DF;
+}
+
+footer{
+    background-color: #DBE9EE;
+    padding: 20px;
+    text-align: center;
 }
